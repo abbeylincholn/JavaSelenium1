@@ -65,6 +65,14 @@ public class UiElementsActions {
         //System.out.println("Select Text" + oldNewsLettersSelect.getFirstSelectedOption().getText()); */
  // The select element (Drop Down) -----------------------------------------------------------------------
 
+        // File Upload --------------------------------------------------------------------------------------------
+  /*      driver.navigate().to("https://the-internet.herokuapp.com/upload");
+        Thread.sleep(2000);
+        String currentDir = System.getProperty("user.dir");
+        System.out.println(" Current Dir: " +currentDir);
+        driver.findElement(By.xpath("//input[@name='file']")).sendKeys(currentDir+"/src/test/resources/pix/abb.jpg");
+        driver.findElement(By.id("file-submit")).click();
+        ------------------------------------------------------------------------------------------------------*/
 
 
 
