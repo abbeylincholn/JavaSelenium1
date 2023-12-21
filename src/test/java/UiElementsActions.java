@@ -126,13 +126,14 @@ public class UiElementsActions {
      /*   driver.get("https://the-internet.herokuapp.com");
         Thread.sleep(2000);
         //driver.findElement(By.xpath("//a[@href='/typos']")).click();
-        WebElement element = driver.findElement(By.xpath("//a[@href='/typos']"));
         //((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView()",element);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+        WebElement element = driver.findElement(By.xpath("//a[@href='/typos']"));    // scroll down to typos
+        JavascriptExecutor js = (JavascriptExecutor) driver;         // to java driver to javascrip
         js.executeScript("arguments[0].scrollIntoView()",element);
         Thread.sleep(2000);
 
-        WebElement element1 = driver.findElement(By.xpath("//a[@href='/abtest']"));
+        WebElement element1 = driver.findElement(By.xpath("//a[@href='/abtest']"));  // scroll up to abtest
         JavascriptExecutor jv = (JavascriptExecutor) driver;
         jv.executeScript("arguments[0].scrollIntoView()",element1);  */
 
