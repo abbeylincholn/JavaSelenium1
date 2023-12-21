@@ -84,7 +84,7 @@ public class UiElementsActions {
         action.dragAndDrop(elementA, elementB).perform();  */
     //-------------------------------------------------------------------------------------------------
 
- // Javascrip Alerts (the three alert option--------------------------------------------------------
+ // Javascrip Alerts (the three alert option), //button[text()='Click for JS Prompt']--------------------------------------------------------
 
     /*    driver.navigate().to("https://the-internet.herokuapp.com/javascript_alerts");
         Thread.sleep(2000);
@@ -109,6 +109,19 @@ public class UiElementsActions {
 
 // Basic Auth --------------------------------------------------------------------
     //  driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
+
+// Iframes --------------------------------------------------------------------
+
+     /*   driver.get("https://the-internet.herokuapp.com/iframe");
+        Thread.sleep(2000);
+        //driver.findElement(By.xpath("//span[text()='File']")).click();
+        driver.switchTo().frame("mce_0_ifr");
+        driver.findElement(By.xpath("//body[@id='tinymce']/p")).sendKeys("Hello world");
+        Thread.sleep(2000);
+        driver.switchTo().defaultContent();  // this help to click file switching out of the iframe
+        driver.findElement(By.xpath("//span[text()='File']")).click(); */
+
+
 
 
 
