@@ -135,7 +135,7 @@ public class UiElementsActions {
 
         WebElement element1 = driver.findElement(By.xpath("//a[@href='/abtest']"));  // scroll up to abtest
         JavascriptExecutor jv = (JavascriptExecutor) driver;
-        jv.executeScript("arguments[0].scrollIntoView()",element1);  */
+        jv.executeScript("arguments[0].scrollIntoView()",element1);   */
 
 
 
