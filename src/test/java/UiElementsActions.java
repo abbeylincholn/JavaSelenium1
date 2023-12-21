@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
@@ -65,33 +66,23 @@ public class UiElementsActions {
         //System.out.println("Select Text" + oldNewsLettersSelect.getFirstSelectedOption().getText()); */
  // The select element (Drop Down) -----------------------------------------------------------------------
 
-        // File Upload --------------------------------------------------------------------------------------------
+ // File Upload -----------------------------------------------------------------------------------------
   /*      driver.navigate().to("https://the-internet.herokuapp.com/upload");
         Thread.sleep(2000);
         String currentDir = System.getProperty("user.dir");
         System.out.println(" Current Dir: " +currentDir);
         driver.findElement(By.xpath("//input[@name='file']")).sendKeys(currentDir+"/src/test/resources/pix/abb.jpg");
-        driver.findElement(By.id("file-submit")).click();
-        ------------------------------------------------------------------------------------------------------*/
+        driver.findElement(By.id("file-submit")).click(); */
+     //   ------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // Drag and Drop ----------------------------------------------------------------------------------------------
+    /*   driver.navigate().to("https://the-internet.herokuapp.com/drag_and_drop");
+        Thread.sleep(3000);
+        WebElement elementA = driver.findElement(By.id("column-a"));
+        WebElement elementB = driver.findElement(By.id("column-b"));
+        Actions action = new Actions (driver);
+        action.dragAndDrop(elementA, elementB).perform();  */
+    //-------------------------------------------------------------------------------------------------
 
 
 
