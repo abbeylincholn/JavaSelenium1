@@ -107,7 +107,8 @@ public class UiElementsActions {
         driver.switchTo().alert().sendKeys("Pass");
         driver.switchTo().alert().accept(); */
 
-
+// Basic Auth --------------------------------------------------------------------
+    //  driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
 
 
 
