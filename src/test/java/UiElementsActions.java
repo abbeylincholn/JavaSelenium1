@@ -13,9 +13,9 @@ public class UiElementsActions {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://omayo.blogspot.com/search?q=test");
+       /* driver.get("https://omayo.blogspot.com/search?q=test");
         driver.manage().window().maximize();
-        Thread.sleep(3000);
+        Thread.sleep(3000); */
 
      // Display Radio Buttons Selection Option  -----------------------------------------------------------
  /*     WebElement radioOptionMale = driver.findElement(By.id("radio1"));
@@ -83,6 +83,33 @@ public class UiElementsActions {
         Actions action = new Actions (driver);
         action.dragAndDrop(elementA, elementB).perform();  */
     //-------------------------------------------------------------------------------------------------
+
+ // Javascrip Alerts (the three alert option--------------------------------------------------------
+
+    /*    driver.navigate().to("https://the-internet.herokuapp.com/javascript_alerts");
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[@onclick='jsAlert()']")).click();
+        Thread.sleep(2000);
+        driver.switchTo().alert().accept();
+        driver.findElement(By.xpath("//button[@onclick='jsConfirm()']")).click();
+        Thread.sleep(2000);
+        driver.switchTo().alert().dismiss();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[@onclick='jsConfirm()']")).click();
+        Thread.sleep(2000);
+        driver.switchTo().alert().accept();
+        driver.findElement(By.xpath("//button[@onclick='jsConfirm()']")).click();
+        Thread.sleep(2000);
+        System.out.println(driver.switchTo().alert().getText());
+        driver.switchTo().alert().dismiss();
+        driver.findElement(By.xpath("//button[@onclick='jsPrompt()']")).click();
+        Thread.sleep(2000);
+        driver.switchTo().alert().sendKeys("Pass");
+        driver.switchTo().alert().accept(); */
+
+
+
+
 
 
 
